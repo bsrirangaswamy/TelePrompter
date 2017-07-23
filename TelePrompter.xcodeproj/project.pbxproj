@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DEC9FA31F254954000076F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC9FA21F254954000076F6 /* AppDelegate.swift */; };
+		2DEC9FA51F254954000076F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC9FA41F254954000076F6 /* ViewController.swift */; };
+		2DEC9FA81F254954000076F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC9FA61F254954000076F6 /* Main.storyboard */; };
+		2DEC9FAB1F254954000076F6 /* TelePrompter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC9FA91F254954000076F6 /* TelePrompter.xcdatamodeld */; };
+		2DEC9FAD1F254954000076F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC9FAC1F254954000076F6 /* Assets.xcassets */; };
+		2DEC9FB01F254954000076F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC9FAE1F254954000076F6 /* LaunchScreen.storyboard */; };
+		2DEC9FBB1F254955000076F6 /* TelePrompterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC9FBA1F254955000076F6 /* TelePrompterTests.swift */; };
+		2DEC9FC61F254955000076F6 /* TelePrompterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC9FC51F254955000076F6 /* TelePrompterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DEC9FB71F254955000076F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEC9F971F254954000076F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEC9F9E1F254954000076F6;
+			remoteInfo = TelePrompter;
+		};
+		2DEC9FC21F254955000076F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEC9F971F254954000076F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEC9F9E1F254954000076F6;
+			remoteInfo = TelePrompter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DEC9F9F1F254954000076F6 /* TelePrompter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelePrompter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC9FA21F254954000076F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DEC9FA41F254954000076F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DEC9FA71F254954000076F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DEC9FAA1F254954000076F6 /* TelePrompter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelePrompter.xcdatamodel; sourceTree = "<group>"; };
+		2DEC9FAC1F254954000076F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DEC9FAF1F254954000076F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DEC9FB11F254954000076F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEC9FB61F254955000076F6 /* TelePrompterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelePrompterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC9FBA1F254955000076F6 /* TelePrompterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelePrompterTests.swift; sourceTree = "<group>"; };
+		2DEC9FBC1F254955000076F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEC9FC11F254955000076F6 /* TelePrompterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelePrompterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEC9FC51F254955000076F6 /* TelePrompterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelePrompterUITests.swift; sourceTree = "<group>"; };
+		2DEC9FC71F254955000076F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DEC9F9C1F254954000076F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC9FB31F254955000076F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC9FBE1F254955000076F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DEC9F961F254954000076F6 = {
+			isa = PBXGroup;
+			children = (
+				2DEC9FA11F254954000076F6 /* TelePrompter */,
+				2DEC9FB91F254955000076F6 /* TelePrompterTests */,
+				2DEC9FC41F254955000076F6 /* TelePrompterUITests */,
+				2DEC9FA01F254954000076F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DEC9FA01F254954000076F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC9F9F1F254954000076F6 /* TelePrompter.app */,
+				2DEC9FB61F254955000076F6 /* TelePrompterTests.xctest */,
+				2DEC9FC11F254955000076F6 /* TelePrompterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DEC9FA11F254954000076F6 /* TelePrompter */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC9FA21F254954000076F6 /* AppDelegate.swift */,
+				2DEC9FA41F254954000076F6 /* ViewController.swift */,
+				2DEC9FA61F254954000076F6 /* Main.storyboard */,
+				2DEC9FAC1F254954000076F6 /* Assets.xcassets */,
+				2DEC9FAE1F254954000076F6 /* LaunchScreen.storyboard */,
+				2DEC9FB11F254954000076F6 /* Info.plist */,
+				2DEC9FA91F254954000076F6 /* TelePrompter.xcdatamodeld */,
+			);
+			path = TelePrompter;
+			sourceTree = "<group>";
+		};
+		2DEC9FB91F254955000076F6 /* TelePrompterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC9FBA1F254955000076F6 /* TelePrompterTests.swift */,
+				2DEC9FBC1F254955000076F6 /* Info.plist */,
+			);
+			path = TelePrompterTests;
+			sourceTree = "<group>";
+		};
+		2DEC9FC41F254955000076F6 /* TelePrompterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC9FC51F254955000076F6 /* TelePrompterUITests.swift */,
+				2DEC9FC71F254955000076F6 /* Info.plist */,
+			);
+			path = TelePrompterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DEC9F9E1F254954000076F6 /* TelePrompter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC9FCA1F254955000076F6 /* Build configuration list for PBXNativeTarget "TelePrompter" */;
+			buildPhases = (
+				2DEC9F9B1F254954000076F6 /* Sources */,
+				2DEC9F9C1F254954000076F6 /* Frameworks */,
+				2DEC9F9D1F254954000076F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelePrompter;
+			productName = TelePrompter;
+			productReference = 2DEC9F9F1F254954000076F6 /* TelePrompter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DEC9FB51F254955000076F6 /* TelePrompterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC9FCD1F254955000076F6 /* Build configuration list for PBXNativeTarget "TelePrompterTests" */;
+			buildPhases = (
+				2DEC9FB21F254955000076F6 /* Sources */,
+				2DEC9FB31F254955000076F6 /* Frameworks */,
+				2DEC9FB41F254955000076F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DEC9FB81F254955000076F6 /* PBXTargetDependency */,
+			);
+			name = TelePrompterTests;
+			productName = TelePrompterTests;
+			productReference = 2DEC9FB61F254955000076F6 /* TelePrompterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DEC9FC01F254955000076F6 /* TelePrompterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEC9FD01F254955000076F6 /* Build configuration list for PBXNativeTarget "TelePrompterUITests" */;
+			buildPhases = (
+				2DEC9FBD1F254955000076F6 /* Sources */,
+				2DEC9FBE1F254955000076F6 /* Frameworks */,
+				2DEC9FBF1F254955000076F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DEC9FC31F254955000076F6 /* PBXTargetDependency */,
+			);
+			name = TelePrompterUITests;
+			productName = TelePrompterUITests;
+			productReference = 2DEC9FC11F254955000076F6 /* TelePrompterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DEC9F971F254954000076F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bala;
+				TargetAttributes = {
+					2DEC9F9E1F254954000076F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8PXGQZP8AE;
+						ProvisioningStyle = Automatic;
+					};
+					2DEC9FB51F254955000076F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8PXGQZP8AE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DEC9F9E1F254954000076F6;
+					};
+					2DEC9FC01F254955000076F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8PXGQZP8AE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DEC9F9E1F254954000076F6;
+					};
+				};
+			};
+			buildConfigurationList = 2DEC9F9A1F254954000076F6 /* Build configuration list for PBXProject "TelePrompter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DEC9F961F254954000076F6;
+			productRefGroup = 2DEC9FA01F254954000076F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DEC9F9E1F254954000076F6 /* TelePrompter */,
+				2DEC9FB51F254955000076F6 /* TelePrompterTests */,
+				2DEC9FC01F254955000076F6 /* TelePrompterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DEC9F9D1F254954000076F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC9FB01F254954000076F6 /* LaunchScreen.storyboard in Resources */,
+				2DEC9FAD1F254954000076F6 /* Assets.xcassets in Resources */,
+				2DEC9FA81F254954000076F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC9FB41F254955000076F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC9FBF1F254955000076F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DEC9F9B1F254954000076F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC9FAB1F254954000076F6 /* TelePrompter.xcdatamodeld in Sources */,
+				2DEC9FA51F254954000076F6 /* ViewController.swift in Sources */,
+				2DEC9FA31F254954000076F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC9FB21F254955000076F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC9FBB1F254955000076F6 /* TelePrompterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC9FBD1F254955000076F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC9FC61F254955000076F6 /* TelePrompterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DEC9FB81F254955000076F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEC9F9E1F254954000076F6 /* TelePrompter */;
+			targetProxy = 2DEC9FB71F254955000076F6 /* PBXContainerItemProxy */;
+		};
+		2DEC9FC31F254955000076F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEC9F9E1F254954000076F6 /* TelePrompter */;
+			targetProxy = 2DEC9FC21F254955000076F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DEC9FA61F254954000076F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DEC9FA71F254954000076F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DEC9FAE1F254954000076F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DEC9FAF1F254954000076F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DEC9FC81F254955000076F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DEC9FC91F254955000076F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DEC9FCB1F254955000076F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8PXGQZP8AE;
+				INFOPLIST_FILE = TelePrompter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PriBa.TelePrompter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2DEC9FCC1F254955000076F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8PXGQZP8AE;
+				INFOPLIST_FILE = TelePrompter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PriBa.TelePrompter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2DEC9FCE1F254955000076F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8PXGQZP8AE;
+				INFOPLIST_FILE = TelePrompterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PriBa.TelePrompterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelePrompter.app/TelePrompter";
+			};
+			name = Debug;
+		};
+		2DEC9FCF1F254955000076F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8PXGQZP8AE;
+				INFOPLIST_FILE = TelePrompterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PriBa.TelePrompterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelePrompter.app/TelePrompter";
+			};
+			name = Release;
+		};
+		2DEC9FD11F254955000076F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8PXGQZP8AE;
+				INFOPLIST_FILE = TelePrompterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PriBa.TelePrompterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TelePrompter;
+			};
+			name = Debug;
+		};
+		2DEC9FD21F254955000076F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8PXGQZP8AE;
+				INFOPLIST_FILE = TelePrompterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PriBa.TelePrompterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TelePrompter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DEC9F9A1F254954000076F6 /* Build configuration list for PBXProject "TelePrompter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC9FC81F254955000076F6 /* Debug */,
+				2DEC9FC91F254955000076F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEC9FCA1F254955000076F6 /* Build configuration list for PBXNativeTarget "TelePrompter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC9FCB1F254955000076F6 /* Debug */,
+				2DEC9FCC1F254955000076F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DEC9FCD1F254955000076F6 /* Build configuration list for PBXNativeTarget "TelePrompterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC9FCE1F254955000076F6 /* Debug */,
+				2DEC9FCF1F254955000076F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DEC9FD01F254955000076F6 /* Build configuration list for PBXNativeTarget "TelePrompterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEC9FD11F254955000076F6 /* Debug */,
+				2DEC9FD21F254955000076F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DEC9FA91F254954000076F6 /* TelePrompter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DEC9FAA1F254954000076F6 /* TelePrompter.xcdatamodel */,
+			);
+			currentVersion = 2DEC9FAA1F254954000076F6 /* TelePrompter.xcdatamodel */;
+			path = TelePrompter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2DEC9F971F254954000076F6 /* Project object */;
+}
